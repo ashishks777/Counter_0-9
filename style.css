@@ -1,0 +1,105 @@
+body{
+  
+}
+
+#header{
+    margin: 3rem;
+    background-color:aqua;
+    background-image: linear-gradient(to top right, rgb(166, 231, 253),rgb(16, 163, 200));
+    padding: 2rem;
+    height:30vh;
+
+}
+
+#header p{
+    text-align: center;
+    font-size: 5vh;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+ #form{
+display: flex;
+justify-content: space-between;
+padding: 2rem;
+font-size: 4vh;
+
+}
+
+ #form input{
+    font-size: 4vh;
+    border: transparent 0px solid;
+}
+
+ #form input:focus {
+ 
+    border: rgb(38, 136, 175) 4px solid;
+}
+
+button{
+    text-align: right;
+    font-size: 4vh;
+ border: transparent 0px solid;
+   background-color: white;
+    border-radius: 30px;
+    height: 6vh;
+    width: 15vw;
+    text-align: center;
+    
+}
+
+button:hover{
+    border: rgb(38, 136, 175) 4px solid;
+//background-color: skyblue;
+
+}
+
+#count{
+    background-color: rgb(172, 94, 94);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 4rem;
+}
+
+#disp{
+    background-color: white;
+    height: 100px;
+    width:100px;
+    position: relative;
+   
+   overflow: hidden;
+
+
+}
+
+#count p{
+    height: 100px;
+    width: 100px;
+    border-top: 4px solid black;
+    margin: 0px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 3rem;
+    background-color: white;
+
+}
+
+#next{
+    position: absolute;
+    top: 100px;
+    background: red;
+
+}
+
+
+
+.animate{
+    top:0px !important;
+   transition: all 0.5s !important;
+    background: red;
+   
+}
+
+
